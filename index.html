@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Dilip Portfolio </title>
+	<!-- cdn link  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- google-font -->
+	<link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+	
+	<!-- Material Icons Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+<!-- font awesome icons -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+integrity="sha512-pY1f5ljm+o5r9mnDpN+UxhJmNgmUHX2wq6HqLPF+j7gU8cZpzq/IdVxUZq+kWqP8ZOLiEFEMgxH4zBr3lBy4Ow=="
+crossorigin="anonymous"
+refferrerpolicy="no-referrer"/>
+<link rel="stylesheet" type="text/css" href="MyPortfolio.css">
+</head>
+<body>
+	<!-- Navbar  -->
+<nav>
+	<div class="logo">dilip</div>
+	<ul >
+		<li><a href="#Home"> Home </a></li>
+		<li><a href="#About"> About </a></li>
+		<li><a href="#Resume"> Resume </a></li>
+		<li><a href="#Contact"> Contact </a></li>
+		
+	</ul>
+		<button class="toggleMenu"><i class="fa-solid fa-bars navIcon"></i></button>
+</nav>
+<!-- Home  -->
+<section class="main" id="Home">
+	<!-- <div>
+		<h1> Dilip Jaiswar </h1>
+		<h3> I'm a Web Developer from Vasai Road , Mumbai , Maharashtra </h3>
+		<button onclick="about()"> About Me </button>
+	</div> -->
+	<div class="slider-container" >
+  <div class="slides" id="slides">
+    <div class="slide">
+      <img src="Images/background1.jpg" alt="Slide 1" />
+      <div class="content">
+        <h1> Dilip Jaiswar </h1>
+        <h3> I'm a Web Developer from Vasai Road , Mumbai , Maharashtra </h3>
+        <button onclick="about()"> About Me </button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="Images/background2.jpg" alt="Slide 1" />
+      <div class="content">
+        <h1> Dilip Jaiswar </h1>
+        <h3> I'm a Web Developer from Vasai Road , Mumbai , Maharashtra </h3>
+        <button onclick="about()"> About Me </button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="Images/background3.jpg" alt="Slide 1" />
+      <div class="content">
+        <h1> Dilip Jaiswar </h1>
+        <h3> I'm a Web Developer from Vasai Road , Mumbai , Maharashtra </h3>
+        <button onclick="about()"> About Me </button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="Images/background4.jpg" alt="Slide 1" />
+      <div class="content">
+        <h1> Dilip Jaiswar </h1>
+        <h3> I'm a Web Developer from Vasai Road , Mumbai , Maharashtra </h3>
+        <button onclick="about()"> About Me </button>
+      </div>
+    </div>
+    
+  </div>
+
+ <!--  <div class="nav-buttons">
+    <button onclick="prevSlide()">❮</button>
+    <button onclick="nextSlide()">❯</button>
+  </div> -->
+
+  <!-- <div class="dots" id="dots"></div> -->
+</div>
+</section>
+<!-- About  -->
+<section class="about" id="About">
+	<h1> About </h1>
+	<hr>
+	<p> Necessitatibus elus consequatur ex aliquid fug eum quidem sint consectetur velit </p>
+	<div class="about-container">
+		<img src="Images/myProfile.png" >
+
+		<div class="about-content">
+			<h1> Web Developer </h1>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="about-info">
+				<ul>
+					<li> <i class="fa-solid fa-cake-candles" style="color: #00a6ff;"></i> <b>birthday :</b> 24 july 2002</li>
+					<li> <i class="fa-solid fa-phone" style="color:#05c77c ;"></i> <b>phone :</b> +91 842 124 1914</li>
+					<li> <i class="fa-solid fa-city" style="color: #a303ea;"></i> <b>city :</b> mumbai , maharashtra </li>
+				</ul>
+				<ul>
+					<li> <i class="fa-solid fa-circle-user" style="color: #ed06b8;"></i> <b> age :</b> <span id="age"></span></li>
+					<li> <i class="fa-solid fa-file" style="color:#ffb200 ;"></i> <b> degree :</b> bachelor </li>
+					<li style="text-transform: lowercase;"> <i class="fa-solid fa-envelope" style="color:#c7052c;"></i> <b style="text-transform: capitalize;"> email :</b> dilipjaiswar2424@gmail.com </li>
+					
+				</ul>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptates odio, dolor maxime cum, praesentium ab natus commodi reiciendis esse voluptatum saepe deleniti quod. Recusandae nam, consectetur nemo voluptatibus aliquid aliquam accusantium quas, maxime dolore quia non, perferendis maiores esse.</p>
+		</div>
+
+	</div>
+</section>
+<!-- skill  -->
+<section class="skill">
+	<h2> Skills </h2>
+	<hr>
+	<p> Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+	<div class="skill-container">
+		<div class="skill-box">
+			<div class="skill-label"><span>HTML</span><span>100%</span></div>
+			<div class="progress-bar-bg">
+				<div class="progress-bar-fill html"></div>
+			</div>
+		</div>
+		<div class="skill-box">
+			<div class="skill-label"><span>CSS</span><span>90%</span></div>
+			<div class="progress-bar-bg">
+				<div class="progress-bar-fill css"></div>
+			</div>
+		</div>
+		<div class="skill-box">
+			<div class="skill-label"><span>Javascript</span><span>80%</span></div>
+			<div class="progress-bar-bg">
+				<div class="progress-bar-fill javascript"></div>
+			</div>
+		</div>
+		<div class="skill-box">
+			<div class="skill-label"><span>react</span><span>50%</span></div>
+			<div class="progress-bar-bg">
+				<div class="progress-bar-fill react"></div>
+			</div>
+		</div>
+		<div class="skill-box">
+			<div class="skill-label"><span>SQL</span><span>90%</span></div>
+			<div class="progress-bar-bg">
+				<div class="progress-bar-fill sql"></div>
+			</div>
+		</div>
+		<div class="skill-box">
+			<div class="skill-label"><span>Java</span><span>70%</span></div>
+			<div class="progress-bar-bg">
+				<div class="progress-bar-fill java"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Resume  -->
+<section class="resume" id="Resume">
+  <div class="resume-heading">
+	<h1> Resume </h1>
+	<hr>
+    <p>  Necessitatibus elus consequatur ex aliquid fug eum quidem sint consectetur velit  </p>
+	<a href="Images/RESUME.pdf" download="resume" ><button> Download<i class="fa-solid fa-download download-icon"></i></button></a>
+
+  </div>
+</section>
+ <section class="resume-container">
+ 	<h1> Summary </h1>
+ 	<ul>
+ 		<li>
+ 			<h2> dilip jaiswar </h2>
+ 			<p> Strong in design and Problem Solving skills . Proficient in SQL , Java , Javascript . Passionate about implementing and launching new projects . Ability to translate business requirements into technical solutions . Looking to start the career as an entry – level Web Developer with reputed from driven by technology . </p>
+ 			<ul>
+ 				<li> <i class="fa-solid fa-circle"></i> Vasai Road , Mumbai , Maharashtra </li>
+ 				<li> <i class="fa-solid fa-circle"></i> +91 842 124 1914</li>
+ 				<li> <i class="fa-solid fa-circle"></i> dilipjaiswar2424@gmail.com</li>
+ 			</ul>
+ 		</li>
+ 	</ul>
+ 	<h1> Education </h1>
+ 	<ul>
+ 		<li>
+ 			<h2> bachelor of science in information technology </h2>
+ 			<p> <b>2020 - 2023</b></p>
+ 			<p> Dr Babasahed Ambedkar Collage </p>
+ 			<p> <b>CGPA :</b> 7.80 / 10 </p>
+ 		</li>
+ 	</ul>
+ 	<h1> Course </h1>
+ 	<ul>
+ 		<li>
+ 			<h2> diploma in java </h2>
+ 			<p> <b>2023 - 2024</b></p>
+ 			<p> Impetus Consultrainers </p>
+ 		</li>
+ 	</ul>
+ 	<h1> Experiece </h1>
+ 	<ul>
+ 		<li>
+ 			<h2> 3 month intership as </h2>
+ 			<p> <b> Frontend Developer at</b></p>
+ 			<p> Ethereum Infotech LLP ( Malad west ) </p>
+ 		</li>
+ 	</ul>
+ 	<h1> Project </h1>
+ 	<ul>
+ 		<li>
+ 			<h2> Agency portfolio </h2>
+ 			<p> <a href="https://agency-portfolio-24.netlify.app" target="_blank"> https://agency-portfolio-24.netlify.app </a></p>
+ 		</li>
+ 	</ul>
+ 		<h1> Work on live Project </h1>
+ 	<ul>
+ 		<li>
+ 			<h2> Towing Vehicle Website </h2>
+ 			<h2> Ethereum Library </h2>
+ 			<h2> HRMS Website </h2>
+ 		</li>
+ 	</ul>
+
+</section>
+<!-- Contact  -->
+<section class="contact" id="Contact">
+	<h1> Contact </h1>
+	<hr>
+	<p>  Necessitatibus elus consequatur ex aliquid fug eum quidem sint consectetur velit  </p>  
+	<!-- contact container -->
+	<div class="message-container">
+        	<div class="message">
+        		<video autoplay muted ><source src="Images/done.MP4" type="video/mp4"></video>
+        			<div class="success-text">
+        			<p> Your Message has been Successfully sent </p>
+        			<button onclick="hideContainer()"> ok </button>
+        			</div>
+        	</div>
+    </div>
+	<section class="contact-container">
+
+	    <div class="contact-details">
+		    <div class="details">
+			   <i class="fa-solid fa-location-dot" style="color: red;"></i>
+			   <div>
+				  <h1 style="color: red;"> Address </h1>
+				  <p> Samta Nagar , Maurya Naka , Sativali , Vasai Road (East) , Mumbai , Maharashtra </p>
+			    </div>	
+		    </div>
+		    <div class="details">
+			   <i class="fa-solid fa-phone" style="color: green;"></i>
+			    <div>
+				  <h1 style="color: green;"> Call Us </h1>
+				  <p> +91 8421241914 </p>
+			    </div>	
+		    </div>
+		    <div class="details">
+			    <i class="fa-solid fa-envelope" style="color: blue;"></i>
+			    <div>
+				  <h1 style="color: blue;"> Email </h1>
+				  <p> dilipjaiswar2424@gmail.com </p>
+			    </div>	
+		    </div>
+		    <div class="map">
+			    <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30103.108421725807!2d72.86336324999998!3d19.417220699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1745985318294!5m2!1sen!2sin"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+		    </div>
+	    </div>
+        <form >
+	        <div class="sm-div">
+	          <div class="sm">
+		        <label> Your Name </label>
+		        <input type="text" name="name" id="name" required>
+	          </div>
+	          <div class="sm">
+		        <label> Your Email </label>
+		        <input type="email" name="email" id="email" required>
+	          </div>
+	        </div>
+	        <div>
+	        	<label> Subject </label>
+	        	<input type="text" name="Subject" id="subject" required>
+	        </div>
+	        <div>
+	        	<label> message </label>
+	        	<textarea cols="30" rows="5" id="message"></textarea>
+	        </div>
+	        <input type="submit" value="Send Message">
+        </form>
+  </section>
+   
+</section>
+<!-- Footer  -->
+<footer>
+	<p> &copy; copyright <b>dilip</b> all rights reserved </p>
+	<div class="icons">
+		 <a href="https://www.facebook.com/profile.php?id=100069226402003" target="_blank"><i class="fa-brands fa-facebook"></i> <span style="background-color: blue;"> facebook </span></a>
+		 <a href="https://www.linkedin.com/in/dilip-jaiswar" target="_blank"><i class="fa-brands fa-linkedin"></i>  <span style="background-color: #1093e9;"> linkedin </span></a>
+         <a href="https://www.instagram.com/dilip.j_24/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i>  <span style="background-color: #e97810;"> instagram </span></a>
+         <a href="https://github.com/Dilip02jaiswar" target="_blank"><i class="fa-brands fa-github"></i>   <span style="background-color: #06ec34;"> github </span> </a>
+     </div>
+	<p> designed by <span>dilip jaiswar</span></p>
+
+</footer>
+
+<script type="text/javascript" src="MyPortfolio.js">
+</script>
+</body>
+</html>
